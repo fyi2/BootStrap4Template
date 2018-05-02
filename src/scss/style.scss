@@ -1,3 +1,4 @@
+$primary: #3292a6;
 $bg-color:#333;
 $font-color:#fff;
 $primary-color:#008ed6;
@@ -33,4 +34,25 @@ body {
   padding-bottom: 50px;
   background-color: #ffffff;
   color: #000000 ;
+}
+
+#authors{
+  img{
+    margin-top:-50px;
+  }
+
+  .fa{
+    font-size:25px;
+  }
+  .card {
+    color: #000000;
+  }
+  .card:hover{
+    background:$primary;
+    color:#fff;
+
+    .fa{
+      color:#fff;
+    }
+  }
 }
