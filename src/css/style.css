@@ -18,7 +18,7 @@ body {
   padding-top: 150px;
   padding-bottom: 50px; }
 
-.explore-section1 {
+.explore-section1, .explore-section2 {
   padding-top: 30px;
   padding-bottom: 50px;
   background-color: #ffffff;
@@ -38,3 +38,36 @@ body {
   color: #fff; }
   #authors .card:hover .fa {
     color: #fff; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background: url("../img/image1.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/image2.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/image3.jpg");
+  background-size: cover; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/lights.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+
+#faq .card {
+  border: #444; }
+  #faq .card a {
+    color: #fff;
+    text-decoration: none; }
+
+#faq .card-body, #faq .card-header {
+  background: #333; }
