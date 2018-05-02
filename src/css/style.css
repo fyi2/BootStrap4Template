@@ -1,0 +1,25 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8; }
+
+#home-section {
+  background: url("../img/home.jpg") no-repeat fixed center;
+  background-size: cover;
+  height: "00px"; }
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.home-inner {
+  padding-top: 150px;
+  padding-bottom: 50px; }
+
+.explore-section1 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+  color: #000000; }
